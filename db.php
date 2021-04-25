@@ -3,7 +3,7 @@ session_start();
 
 $conn = mysqli_connect(
   'mysqldb',
-  'myuser',
+  'root',
   'password123',
   'php_mysql_crud'
 ) or die(mysqli_erro($mysqli));
